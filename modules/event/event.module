@@ -1,0 +1,18 @@
+<?php 
+
+function event_menu() {
+	$items['event'] = array(
+		'title' => 'Event Item',
+		'description' => 'Event Description',
+		'route_name' => 'news_deh'
+	);
+	return $items;
+}
+
+function apaajah_permission() {
+	return array(
+		'view event' => array(
+			'title' => t('access content'),
+		),
+	);
+}

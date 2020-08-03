@@ -1,0 +1,7 @@
+name: Event Module
+type: module
+description: 'Event Module for Tester - Drupal ver 8.6.4'
+package: Custom
+version: '8.6.4'
+core: '8.x'
+project: 'drupal'

@@ -1,0 +1,18 @@
+<?php 
+
+function news_menu() {
+	$items['news'] = array(
+		'title' => 'News Item',
+		'description' => 'News Description',
+		'route_name' => 'news_deh'
+	);
+	return $items;
+}
+
+function apaajah_permission() {
+	return array(
+		'view news' => array(
+			'title' => t('access content'),
+		),
+	);
+}
