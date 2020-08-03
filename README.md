@@ -2,8 +2,8 @@
 voxteneo-drupal_8.6.4-Test
 
 MySql:
-	file: database/tester8.sql
-	database: tester2
+	file: Database-Mysql/tester8.sql
+	database: tester8
 	user: root
 	pass:
 	
