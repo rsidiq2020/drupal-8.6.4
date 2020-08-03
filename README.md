@@ -13,9 +13,14 @@ Drupal: (8.6.4)
 
 Step Install Drupal on Localhost:
 1. Drupal version 8.6.4
-2. create GIT repository and copy link for clone
-3. using composer for install Drupal (run from command line)
+2. using composer for install Drupal (run from command line)
 	composer create-project drupal/recommended-project my_site_name_dir
-4. create Mysql database (sample: tester)
-5. run install Drupal, from localhost and set for database name (tester)
-6. wait and see
+3. create Mysql database (sample: tester8)
+4. run install Drupal, from localhost and set for database name (tester8)
+5. wait and see
+
+Step copy file to Localhost:
+1. Drupal version 8.6.4
+2. clone "https://github.com/rsidiq2020/drupal-8.6.4.git" to your localhost folder
+3. create Mysql database (name: tester8)
+4. and run
